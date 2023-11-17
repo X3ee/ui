@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="resources\resources.hpp" />
+    <ClInclude Include="resources\main_includes.hpp" />
+    <ClInclude Include="render\d3d9 render\render_d3d9.hpp" />
+    <ClInclude Include="render\utils\color.hpp" />
+    <ClInclude Include="render\utils\vec2.hpp" />
+    <ClInclude Include="render\fonts\font.hpp" />
+    <ClInclude Include="ui_space\gui.hpp" />
+    <ClInclude Include="ui_space\controls\tabs\tab.h" />
+    <ClInclude Include="ui_space\controls\window\window.hpp" />
+    <ClInclude Include="ui_space\controls\handle_controls.hpp" />
+    <ClInclude Include="ui_space\controls\group_box\group_box.h" />
+    <ClInclude Include="ui_space\controls\base\base.hpp" />
+    <ClInclude Include="ui_space\controls\checkbox\checkbox.hpp" />
+    <ClInclude Include="ui_space\controls\slider\slider.hpp" />
+    <ClInclude Include="ui_space\controls\combo\combo.hpp" />
+    <ClInclude Include="ui_space\controls\multi-combo\multi-combo.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="render\d3d9 render\render_d3d9.cpp" />
+    <ClCompile Include="render\fonts\font.cpp" />
+    <ClCompile Include="ui_space\gui.cpp" />
+    <ClCompile Include="ui_space\controls\tabs\tab.cpp" />
+    <ClCompile Include="ui_space\controls\window\window.cpp" />
+    <ClCompile Include="ui_space\controls\group_box\group_box.cpp" />
+    <ClCompile Include="ui_space\controls\base\base.cpp" />
+    <ClCompile Include="ui_space\controls\checkbox\checkbox.cpp" />
+    <ClCompile Include="ui_space\controls\slider\slider.cpp" />
+    <ClCompile Include="ui_space\controls\combo\combo.cpp" />
+    <ClCompile Include="ui_space\controls\multi-combo\multi-combo.cpp" />
+  </ItemGroup>
+</Project>
